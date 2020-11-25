@@ -1,12 +1,12 @@
-#Product Description
+# Product Description
 Backend API for a library service that allows users to search for books to see if the library has them and and whether 
 they are checked out. Both Librarians and Patrons can check books in and out, but only Librarians can add and remove books or remove users.
 
-#API Description
+# API Description
 
 
 for each url, the action variable tells the API what action you wish to take.  
-##LoginServlet
+## LoginServlet
 Get actions:
 * /login takes an id and password and logs the user in
     * Example: (http://localhost:8080/LibraryServer/servlet.Login?action=/login&id=16&password=password16) logs in the user who's id is 16.  
@@ -58,7 +58,7 @@ Push actions:
 * /deleteBook deletes a book from the system permanently. it can only be called by a librarian.
 * /newBook  creates a book in the database. it can also only be called by a librarian.
 
-#setup
+# setup
 
 ## software requirements
 
