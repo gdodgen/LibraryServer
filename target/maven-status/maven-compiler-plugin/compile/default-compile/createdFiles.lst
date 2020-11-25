@@ -1,0 +1,12 @@
+Service\BookService.class
+Service\UserService.class
+dao\DatabaseUserDAO.class
+servlets\BookServlet.class
+model\Book.class
+dao\DatabaseBookDAO.class
+servlets\UserServlet.class
+Template\UserTemplate.class
+servlets\HelloServlet.class
+util\JDBCUtility.class
+model\User.class
+Template\BookTemplate.class
